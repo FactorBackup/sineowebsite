@@ -1,2 +1,2 @@
-# DiscoverBlockchain-Project-ICO-Website
-Dissdfdsfsdf
+# SineoBlockchain-Project-ICO-Website
+SineoBlockchain
