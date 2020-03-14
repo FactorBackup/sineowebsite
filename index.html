@@ -118,6 +118,7 @@
                     <!--<li class="nav-item"><a class="nav-link menu-link" href="#tokenSale">TOKEN</a></li>-->
                     <!--<li class="nav-item"><a class="nav-link menu-link" href="#roadmap">ROADMAP</a></li>-->
                     <!--<li class="nav-item"><a class="nav-link menu-link" href="#team">TEAM</a></li>-->
+                    <li class="nav-item"><a class="nav-link menu-link" href="./dapp.html">DAPP</a></li>
                     <li class="nav-item"><a class="nav-link menu-link" href="#faq">FAQ</a></li>
                     <li class="nav-item"><a class="nav-link menu-link" href="#partners">PARTNERS</a></li>
                     <li class="nav-item"><a class="nav-link menu-link" href="#media">MEDIA</a></li>
@@ -130,7 +131,7 @@
                                             href="#">Sign
                         up</a></li>
                     <li class="nav-item"><a class="nav-link btn btn-sm btn-outline menu-link sign-in-btn" id="signinBtn"
-                                            href="#">Sign
+                                            href="#">Log
                         in</a></li>
                 </ul>
             </div>
@@ -158,8 +159,8 @@
                                 <!--<li><a href="./documents/DiscoverBlockchain-Pitch_Deck.pdf"
                                        class="btn btn-alt whitepaper-btn header-wp-btn" target="_blank">PITCH DECK</a>
                                 </li>-->
-                                <li><a href="https://iondis.github.io/sineoweb/"
-                                       class="btn btn-alt whitepaper-btn header-wp-btn" target="_blank">App download</a>
+                                <li><a href="./appDown.html"
+                                       class="btn btn-alt whitepaper-btn header-wp-btn">App download</a>
                                 </li>
                                 <li><a href="./documents/SINEOP~3-1.docx"
                                     class="btn btn-alt whitepaper-btn header-wp-btn" target="_blank">whitepaper</a>
@@ -249,19 +250,46 @@
             <div id="signup-modal" class="modal">
                 <div class="modal-content">
                     <span class="seventh-close">&times;</span>
-                    <h3>회원가입 기능이 업데이트 중입니다.</h3>
-                    <p>사전 가입을 원하시면 이메일 주소을 입력하시면 사전가입이 됩니다.</p>
+                    <h3>회원가입</h3>
+                    <!-- <p>사전 가입을 원하시면 이메일 주소을 입력하시면 사전가입이 됩니다.</p> -->
+
                     <div class="email-octopus-form-wrapper">
                         <p class="email-octopus-success-message" style="color: #182848;font-size: 25px;"></p>
                         <p class="email-octopus-error-message" style="color: #FF0000;font-size: 25px;"></p>
                         <form method="post"
                               action="https://emailoctopus.com/lists/f0e47811-5ac4-11e8-a3c9-06b79b628af2/members/embedded/1.1/add"
                               class="email-octopus-form">
-                            <div class="email-octopus-form-row">
-                                <label for="field_0" style="color: #182848">Your Email address</label>
-                                <input id="field_0" name="embedded_form_subscription[field_0]" type="email"
-                                       placeholder="">
+
+
+                              <div class="email-octopus-form-row">
+                                <label for="field_0" style="color: #182848">
+                                <input id="field_0" name="embedded_form_subscription[field_0]" type="text"
+                                       placeholder="Name">
+                                </label>
                             </div>
+
+                            <div class="email-octopus-form-row">
+                                <label for="field_0" style="color: #182848">
+                                <input id="field_0" name="embedded_form_subscription[field_0]" type="email"
+                                       placeholder="Email">
+                                </label>
+                            </div>
+
+                            <div class="email-octopus-form-row">
+                                <label for="field_0" style="color: #182848">
+                                <input id="field_0" name="embedded_form_subscription[field_0]" type="password"
+                                       placeholder="Password">
+                                </label>
+                            </div>
+
+                            <div class="email-octopus-form-row">
+                                <label for="field_0" style="color: #182848">
+                                <input id="field_0" name="embedded_form_subscription[field_0]" type="password"
+                                       placeholder="Retype Password">
+                                </label>
+                            </div>
+                            
+
                             <div class="email-octopus-form-row-consent">
                                 <input type="checkbox" id="consent" name="consent">
                                 <label for="consent" style="color: #182848">주간뉴스,이메일 및 행사정보을 이메일로 받고싶으면 체크박스에 체크을 해주세요.</label>
@@ -288,8 +316,8 @@
             <div id="signin-modal" class="modal">
                 <div class="modal-content">
                     <span class="eight-close">&times;</span>
-                    <h3>회원가입 기능이 업데이트 중입니다.</h3>
-                    <p>사전가입을 원하시면 이메일 주소을 입력하시면 사전가입이 됩니다.</p>
+                    <h3>로그인</h3>
+                    <!-- <p>사전가입을 원하시면 이메일 주소을 입력하시면 사전가입이 됩니다.</p> -->
                     <div class="email-octopus-form-wrapper">
                         <p class="email-octopus-success-message" style="color: #182848;font-size: 25px;"></p>
                         <p class="email-octopus-error-message" style="color: #FF0000;font-size: 25px;"></p>
@@ -297,14 +325,20 @@
                               action="https://emailoctopus.com/lists/f0e47811-5ac4-11e8-a3c9-06b79b628af2/members/embedded/1.1/add"
                               class="email-octopus-form">
                             <div class="email-octopus-form-row">
-                                <label for="field_0" style="color: #182848">Your Email address</label>
+                                <label for="field_0" style="color: #182848"></label>
                                 <input id="field_0" name="embedded_form_subscription[field_0]" type="email"
-                                       placeholder="">
+                                       placeholder="Email">
                             </div>
-                            <div class="email-octopus-form-row-consent">
+                            <div class="email-octopus-form-row">
+                                <label for="field_0" style="color: #182848">
+                                <input id="field_0" name="embedded_form_subscription[field_0]" type="password"
+                                       placeholder="Password">
+                                </label>
+                            </div>
+                            <!-- <div class="email-octopus-form-row-consent">
                                 <input type="checkbox" id="consent" name="consent2">
                                 <label for="consent" style="color: #182848">주간뉴스,이메일 및 행사정보을 이메일로 받고싶으면 체크박스에 체크을 해주세요.</label>
-                            </div>
+                            </div> -->
                             <div class="email-octopus-form-row-hp" aria-hidden="true">
                                 <!-- Do not remove this field, otherwise you risk bot sign-ups -->
                                 <input type="text" name="hpf0e47811-5ac4-11e8-a3c9-06b79b628af2"
@@ -317,7 +351,7 @@
                                        value="">
                                 <button type="submit"
                                         style="color: #fff;font-weight: 500;background: none; border-radius: 4px;background-color: #182848;border: 2px solid #182848;">
-                                    SUBSCRIBE
+                                    LOGIN
                                 </button>
                             </div>
                         </form>
@@ -549,9 +583,10 @@
             <div class="col-md-4">
                 <div class="features-box animated" data-animate="fadeInUp" data-delay=".2">
                     <img src="./assets/images/fixing_the_engine_of_innovation.png" alt="features">
-                    <h5>Fixing the Engine <br> of Innovation</h5>
-                    <p>Like an untwining strand of DNA, academia and the workplace are spiraling away from each other,
-                        resulting in overspecialized academics, undertrained employees, tremendous waste...
+                    <!-- <img src="./assets/images/s_1.png" alt="features" style="width: 200px; height: 200px;"> -->
+                    <h5>Platform <br> architect</h5>
+                    <p>합의를 달성하고 네트워크에 대한 부분 신뢰가 있다고 가정 할 때 지연 시간이 짧은 승인 된 투표 기반 체계를 사용합니다. 
+                        보증 정책은 동료가 사용할 투표 기반 체계와 결과적으로 거래의 유효성에 관한 각 동료의 가중치를 정의합니다
                         <br> <a id="first-button"> Read more</a>
                     </p>
                 </div>
@@ -560,19 +595,21 @@
             <div class="col-md-4">
                 <div class="features-box animated" data-animate="fadeInUp" data-delay=".3">
                     <img src="./assets/images/flexible_education.png" alt="features">
-                    <h5>Flexible Education for <br> Disruptive Conditions</h5>
-                    <p>As universities are challenged to adapt their content to the new generation, that very same
-                        generation already understands what an agile learning environment would look like...
+                    <!-- <img src="./assets/images/a_2.png" alt="features" style="width: 200px; height: 200px;"> -->
+                    <h5>Sineoplatform <br>Consensus</h5>
+                    <p>블록체인 파일을 형성하고 기록하는 부분에 있어서는 Hash Algorithm이 사용됩니다. Transaction 을 형성하면 해당 고유 Transaction ID가 남고, 
+                        이에 대한 시간(Time stamp), Hash Value 가 남습니다...                         
                         <br> <a id="second-button"> Read more</a></p>
                 </div>
             </div>
             <!-- .col  -->
             <div class="col-md-4">
-                <div class="features-box animated" data-animate="fadeInUp" data-delay=".4">
-                    <img src="./assets/images/campus.png" alt="features">
-                    <h5>SineoBlockchain <br> Campus</h5>
-                    <p>The SineoBlockchain campus is a virtual platform which is a combination of a professional
-                        marketplace and think-tank that will house 2nd and 3rd generation Blockchain Technology...
+                <div class="features-box animated" data-animate="fadeInUp" data-delay=".4">                                 
+                    <img src="./assets/images/decentralized.png" alt="features" style="margin-bottom: -10px;">
+                    <!-- <img src="./assets/images/a_3.png" alt="features" style="width: 200px; height: 200px;"> -->
+                    <h5>Transaction<br> Creation</h5>
+                    <p>체인 코드는 네트워크의 핵심 요소로, 구성원 참여자가 따라야 할 규칙을 지시합니다. Docker 컨테이너에서 실행되므로 공유 원장에서 격리됩니다. 
+                        체인 코드에는 애플리케이션 로직을 실행하고 gRPC 메시지 및 시스템 체인 코드를 사용하여 피어와...
                         <br> <a id="third-button"> Read more</a></p>
                 </div>
             </div>
@@ -583,10 +620,10 @@
             <div class="col-md-4">
                 <div class="features-box animated" data-animate="fadeInUp" data-delay=".2">
                     <img src="./assets/images/principles.png" alt="features">
-                    <h5>Principles for <br> Intuiting Competency</h5>
-                    <p> While enthusiasm for disruption and self-granted job titles are often necessary boxes for
-                        prospects to tick, there are several disparate qualifiers which, though intuitively valuable,
-                        are hard...
+                    <!-- <img src="./assets/images/a_4.png" alt="features" style="width: 200px; height: 200px;"> -->
+                    <h5>Transaction ID  <br> Creation Process</h5>
+                    <p> Client A가 블록체인 네트워크에 트랜잭션을 요청합니다. 예를 들어 중고차를 사고 싶어요!라고 요청을 보낸거죠. 
+                        그 거래에 대해서 승인해야 하는 피어가 endorsement policy로 정의되어 있는데, 이 단계에서 그 피어들에게 해당 요청을 전송합니다...
                         <br> <a id="fourth-button"> Read more</a></p>
                 </div>
             </div>
@@ -594,20 +631,20 @@
             <div class="col-md-4">
                 <div class="features-box animated" data-animate="fadeInUp" data-delay=".3">
                     <img src="./assets/images/universal_tenure.png" alt="features">
-                    <h5>Universal <br> Tenure</h5>
-                    <p>Qualification is not just what you know. Or who you know.
-                        Qualification is a constantly-updating consensus about you that is made by a decentralized,
-                        disparate whole...
+                    <!-- <img src="./assets/images/a_5.png" alt="features" style="width: 200px; height: 200px;"> -->
+                    <h5>From of  <br> Document </h5>
+                    <p>저작권 심의위원회에서 요구하는 문서의 규격사항에 맞춰 저작권의 내용기재와 SineoPlatform 블록체인와 융-결합하여 저작권물이 블록체인내에서 선 등록되어 후 심사과정이 이루어집니다.
                         <br> <a id="fifth-button"> Read more</a></p>
                 </div>
             </div>
             <!-- .col  -->
             <div class="col-md-4">
                 <div class="features-box animated" data-animate="fadeInUp" data-delay=".4">
-                    <img src="./assets/images/decentralized.png" alt="features">
-                    <h5>Decentralized <br> Talent</h5>
-                    <p> In software and technology, there are trends in increasingly lateral solutions for education,
-                        recruitment, research and development. Businesses are becoming increasingly...
+                    <img src="./assets/images/campus.png" alt="features">                           
+                    <!-- <img src="./assets/images/a_6.png" alt="features" style="width: 200px; height: 200px;"> -->
+                    <h5>Integrated <br>  Utilization Plan</h5>
+                    <p> 이동통신, 인터넷, 사물인터넷 등 정보기술(IT)의 급속한 발전으로 생활방식이 물리적세계에서 디지털세계로 이전하게 됐었습니다. 
+                        데이터는 폭발적으로 증가하고, 전파 속도가 빠르고, 복제와 변조와 소멸이 용이해진 반면...
                         <br> <a id="sixth-button"> Read more</a></p>
                 </div>
             </div>
@@ -1649,9 +1686,9 @@
             <div class="row text-center">
                 <div class="owl-carousel partners-carousel">
                     <div class="col-sm">
-                        <div class="single-partner animated soffos-partner" data-animate="fadeInUp" data-delay="0">
-                            <a href="https://soffos.ai/" target="_blank">
-                                <img src="./assets/images/partner-soffos.png" alt="partner">
+                        <div class="single-partner animated" data-animate="fadeInUp" data-delay="0" style="height: 200px; margin-top: 30px;">
+                            <!-- <a href="https://soffos.ai/" target="_blank"> -->
+                                <img src="./assets/images/New Project1.png" alt="partner">
                             </a>
                         </div>
                     </div>
@@ -1729,22 +1766,17 @@
                                     <div class="card-header">
                                         <h5>
                                             <a data-toggle="collapse" data-target="#collapse-1-1">
-                                                What is SineoBlockchain?<span class="plus-minus"><span
+                                                SineoBlockchain은 무엇인가요?<span class="plus-minus"><span
                                                     class="ti ti-angle-up"></span></span>
                                             </a>
                                         </h5>
                                     </div>
                                     <div id="collapse-1-1" class="collapse show" data-parent="#accordion-1">
                                         <div class="card-body">
-                                            <p>SineoBlockchain is both an educational and professional marketplace
-                                                helping clients and individuals connect with skilled Blockchain
-                                                Technology educators, contractors and entrepreneurs. What differentiates
-                                                us from the other freelance marketplaces is that our platform is
-                                                specific to Blockchain Technology projects and purposes. Additionally,
-                                                beyond conventional functions of the platform we apply the transparent
-                                                and objective DiscoverSCORE validation algorithm: our chief
-                                                differentiating value and unique application of Blockchain
-                                                Technology.</p>
+                                            <p>신어블록체인 메인넷은 블록체인 네트워크에서 작동하는 분산 어플리케이션 DAPP에 
+                                                의해 결정되고, , ‘Smart contract’에 의한 구축으로  이를 사용하는 다수 참여
+                                                자들 간의 관계 역학 시스템으로 탈중앙화를 지향하는 Platform임을 증명함으로서, 
+                                                독립적이고 확장 가능하며 상호운용성이 보장된 체인 네트워크입니다. </p>
                                         </div>
                                     </div>
                                 </div>
@@ -1752,25 +1784,21 @@
                                     <div class="card-header">
                                         <h5>
                                             <a class="collapsed" data-toggle="collapse" data-target="#collapse-1-2">
-                                                Why does this project need Blockchain Technology?<span
+                                                이 프로젝트에 블록체인 기술이 필요한 이유는 무엇인가요?<span
                                                     class="plus-minus"><span class="ti ti-angle-up"></span></span>
                                             </a>
                                         </h5>
                                     </div>
                                     <div id="collapse-1-2" class="collapse" data-parent="#accordion-1">
                                         <div class="card-body">
-                                            <p>While many are already hard at work building new protocols,
-                                                SineoBlockchain has recognized the ‘self-disruptive’ aspect of the
-                                                technology demands attention.
-                                                There exists a necessity for the educational and professional
-                                                marketplace infrastructure that will help the building process become
-                                                more reliable, efficient, transparent and secure.
-                                                Without these, the technology will continue to struggle to launch,
-                                                destabilized by the weight of its own immense potential.
-                                                We want people to have control of their educational and professional
-                                                profiles in a decentralized, peer-to-peer environment using our
-                                                involvement score (DSCore) and determine the path they choose to take
-                                                with their skills.</p>
+                                            <p> 중앙화된 서버나 별도의 통제기관 없이 블록체인 네트워크 안의 참여자들만으로 자유로운 거래가 가능하고, 상호간 신뢰가 형성되어 있지 않는 사람들도 모여 거래에 대한 이상 유무를 합의하고 이에 따라 신뢰할 수 있는 거래가 이루어지는 시스템으로 거래정보가 담긴 Transaction은 주기적으로 생성되고 합의와 승인과정을 거쳐 저장됩니다.
+
+                                                또한, 참여 시장의 확대에 따른 참여자 수의 증가에도 불구하고 임계 제한
+                                                을 설정하지 않으며, 본 Platform의 특성상 유지 및 관리를 위한 재정이 요구되지 않아 경제적 사용 환경을 제공합니다. 
+                                                
+                                                그리고 신어블록체인 메인넷의 주최가 되며 커뮤니티와 생태계를 기반으로 한 플랫폼인 신어플랫폼 커뮤니티는 정신문화에 기반한 삶의 질 향상을 통하여 인류의 미래 
+                                                세대에게 풍요로운 생활환경을 제공하는 것을 궁극적 목표로 합니다.
+                                                 또한 기술, 산업, 문학, 예술, 문학, 음악 등과 같은 고유한 경계를 넘어 다양한 분야들 간 ‘느슨한 연결’을 토대로 서로간의 융합 및 조화를 통하여 시너지 효과를 극대화 합니다.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -1778,21 +1806,34 @@
                                     <div class="card-header">
                                         <h5>
                                             <a class="collapsed" data-toggle="collapse" data-target="#collapse-1-3">
-                                                Who are your main competitors?<span class="plus-minus"><span
+                                                통합적인 활용방안은 어떤가요?<span class="plus-minus"><span
                                                     class="ti ti-angle-up"></span></span>
                                             </a>
                                         </h5>
                                     </div>
                                     <div id="collapse-1-3" class="collapse" data-parent="#accordion-1">
                                         <div class="card-body">
-                                            <p>We have competitors in two distinct industries - education and
-                                                professional marketplaces. From the latter category, recruitment
-                                                platforms, freelance job sites whereby the former category, e-learning
-                                                sites, Blockchain code academies will suffer.
-                                                That being said, these are operating as sole service providers while
-                                                SineoBlockchain focuses on providing both e-learning and professional
-                                                marketplaces for Blockchain Technology - which is a unique approach to
-                                                solving an emerging problem.</p>
+                                            <p>블록체인은 데이터를 왜곡할 수 없고, 특징을 소급할 수 있기 때문에, 데이터의 진실성과 신뢰성을 향상시킬 수 있으며, 
+                                                전자적 증거와의 천연적인 결합점이 존재합니다. 
+ 
+                                                첫째는 증거 저장의 안전성입니다. 이전의 전자증거는 자체 서버 또는 클라우드 서버에 저장되며, 
+                                                파일은 전송, 백업 과정에서 쉽게 손상되어 증거가 불완전하거나 파괴될 수 있었습니다. 동시에, 중앙식 저장. 
+                                                권한 집중의 문제가 있어, 정보나 데이터 컨텐츠가 조작될 리스크가 있었지만, 블록 체인을 이용하여 전자인증,
+                                                증거를 저장하며 타임스탬프와 비대칭 암호화 기술을 이용하여 진실성과 안전성을 근거로 증명합니다. 
+                                                 
+                                                둘째는 검증절차 입니다. 블록체인은 분산형 저장을 기반으로 사법기관, 감사기관, 중재기관 등 다계층연결 구현을 허용합니다. 
+                                                정보에 의한 상호접속, 수취시간 원가 절감, 중재절차 최적화, 다방면의 협업 효율을 높힐수있으며, 
+                                                블록체인의 특징이 전자 증거 수요와 비교적 잘 일치하고 있으며, 
+                                                전자 증거도 블록체인 기술의 가장 중요한 응용영역으로 사용되고 있습니다. 
+                                                블록체인에 기초한 전자증거 보유기술 방안의 주요 논리는 전자증거 생성 시 타임스탬프가 부여되고 
+                                                전자 증거 저장이 일정할 경우 해시값 대비 안전성 완전성을 검증하여 전송 중 비대칭 암호화 기술로 전자증거를 
+                                                암호화증거의 진실성과 안전성을 보장합니다. 블록체인 기술을 적용하여 데이터 액세스 양식을 규범화하고, 
+                                                데이터 보안과 데이터 소급을 보장하며, 
+                                                여러 컨소시엄을 통해 공감대에 참여하여 전자 데이터의 진실성의 확실성을 99.9% 수준치로 만들수있습니다. 
+                                                전자 데이터 추출 절차에서는 블록을 이용하여 데이터를 저장하며, 
+                                                전자증거 제시 공증처는 블록체인 네트워크에 참여된 사용자에 기초합니다. 
+                                                소송절차의 최적화되는 전자증거물로 사법적용 채택될수있는 확율을 확고히 할 수 있습니다.
+                                                </p>
                                         </div>
                                     </div>
                                 </div>
@@ -1800,31 +1841,27 @@
                                     <div class="card-header">
                                         <h5>
                                             <a class="collapsed" data-toggle="collapse" data-target="#collapse-1-4">
-                                                Why would students, educators, contractors and entrepreneurs use
-                                                SineoBlockchain instead of other platforms?<span
+                                                신어블록체인 메인넷이 타 메인넷과의 기술개발과 컨텐츠창조보다 특화된 점이 무엇인가요?<span
                                                     class="plus-minus"><span class="ti ti-angle-up"></span></span>
                                             </a>
                                         </h5>
                                     </div>
                                     <div id="collapse-1-4" class="collapse" data-parent="#accordion-1">
                                         <div class="card-body">
-                                            <h6>Creating a trusted environment</h6>
-                                            <p>DiscoverBlockchain establishes a system that provides order in a
-                                                leaderless, egalitarian system by using the innovations provided by
-                                                distributed ledger technology to bring better organization to future
-                                                thinkers and doers.</p>
-                                            <h6>Learning vs. Application</h6>
-                                            <p>Our primary goal is to address waste resulting from disorganization
-                                                within and between Education & Business.
-                                                Academia and the workplace are no longer working hand in hand to bridge
-                                                the gap between learners and workers. We want to be the bridge and give
-                                                the opportunity to students to progress into service providers within
-                                                the platform.</p>
-                                            <h6>Decentralized Talent</h6>
-                                            <p>Most Blockchain development occurs over the Internet, relying on the same
-                                                strengths that are provided by remote learning and freelancing.
-                                                In our solution, we integrate the remote learning and freelancing models
-                                                into a single, reciprocal ecosystem.</p>
+                                            <!-- <h6>Creating a trusted environment</h6> -->
+                                            <p>기존의 Signiture(서명) System, Authnization(인증) System 과정 절차에 있어서 필요한 
+                                                개인의 개인정보 및 자료들을 간소화 하며, 예을 들자면 기존 정부에서 사용하고 있는 민원24,나이스,
+                                                마이핀 등등 의 인증절차에 대한 기술력 확보,구현을 하고자 부산 블록체인 특구을 지정하며 앞으로의 
+                                                4차산업의 기술을 도입 및 응용을 정부기관에서 활용하는것을 목적으로 예산안 3천억원이 투입되었으며 
+                                                현재 블록체인,AI,5G,무인자동차 등등의 기술을 응용 및 접목하는것으로 기술개발을 진행하였으나 
+                                                현재 연구중인 상태입니다. 따라서 SineoPlatform의 블록체인과 저작권인증,내용 관련해서 의 
+                                                기술적 융-결합은 기술적 도입 의의가 상당히 크다라고 볼수있으며, 이를 활용하여 기록을 남기는 
+                                                형식에 있어서의 인증분야에서 기술적 한계의 도약 에 대한 의의을 가질수있습니다. </p>
+                                            <!-- <h6>Learning vs. Application</h6> -->
+                                            <p>또한 이를 통하여 저작권물에 대한 1차 저작권, 2차 저작권에 대한 소유권 분쟁, 저작권형성 시간, 
+                                                저작권 인증 등등 의 많은 분야에서 해결책을 찾을수있으며 SineoPlatfrom은 이러한 기반기반 
+                                                기술을 응용하여 실제 다른 산업분야에서의 응용 하는것을 목표로 합니다.</p>
+                                            <!-- <h6>Decentralized Talent</h6> -->                                          
                                         </div>
                                     </div>
                                 </div>
@@ -2140,19 +2177,46 @@
         <div class="row text-center">
             <div class="col-md-6 offset-md-3">
                 <div class="section-head">
-                    <h6 class="section-title-sm animated" data-animate="fadeInUp" data-delay="0">As seen in</h6>
+                    <h6 class="section-title-sm animated" data-animate="fadeInUp" data-delay="0">Memebers</h6>
                 </div>
             </div>
         </div>
         <div class="partner-list">
-            <div class="row text-center">
+            <!-- <div class="row text-center"> -->
                 <div class="col-sm col-6">
                     <div class="single-partner animated first-partner" data-animate="fadeInUp" data-delay=".1">
-                        <a href="http://www.milliyet.com.tr/discover-blockchain-kullanicilar-icin-istanbul-yerelhaber-2876518/"><img
-                                src="./assets/images/press/milliyet.png" alt="partner"></a>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="./assets/images/me2.png" alt="partner" style="border-radius: 50%; width: 250px; height: 250px; ">                                                      
+                                
+                            </div>
+                            <div class="col-md-6" style="color: #182848;">
+                                <h5 style="color: #182848;">김석계 &nbsp; &nbsp; &nbsp; CTO/FOUNDER</h5>                            
+                                <!-- <pre> -->
+                                現. 김석계 특허법률사무소, 신어기술투자 대표<br>
+                                <strong>주요경력</strong><br>
+                                특허청 심사관<br>
+                                특허심판원 심판관<br>
+                                특허법원 기술심리관<br>
+                                대법원 특허조사관<br>
+                                국가지식재산위원회 자문위원<br>
+                                <strong>자격</strong><br>
+                                변리사 <br>
+                                기술거래사<br>
+                                기술 및 사업가치 평가사                            <br>
+                                <!-- </pre> -->
+                            </div>
+
+
+
+                        
+
+
+
+
                     </div>
                 </div>
-                <div class="col-sm col-6">
+                <!-- <div class="col-sm col-6">
                     <div class="single-partner animated" data-animate="fadeInUp" data-delay=".2">
                         <a href="http://www.iha.com.tr/istanbul-haberleri/discover-blockchain-kullanicilar-icin-blockchain-tabanli-guvenli-ag-gelistirecek-istanbul-2043454/"><img
                                 src="./assets/images/press/iha.jpg" alt="partner"></a>
@@ -2181,9 +2245,9 @@
                         <a href="http://www.karar.com/istanbul/discover-blockchain-kullanicilar-icin-blockchain-tabanli-guvenli-ag-gelistirecek-891309"><img
                                 src="./assets/images/press/karar.png" alt="partner"></a>
                     </div>
-                </div>
+                </div> -->
             </div>
-            <div class="row text-center">
+            <!-- <div class="row text-center">
                 <div class="col-md-10 offset-md-1">
                     <div class="row">
                         <div class="col-sm col-6">
@@ -2250,8 +2314,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
+            </div> -->
+        </div><!--파트너리스트-->
     </div>
 </div>
 <!-- Ninth Section -->
@@ -2271,25 +2335,27 @@
             <div class="row">
                 <div class="col-lg-4 col-sm-8">
                     <div class="blog-item animated" data-animate="fadeInUp" data-delay="0">
-                        <div class="blog-photo"><a
-                                href="https://medium.com/@d_blockchain/introducing-discover-blockchain-a-network-for-education-recruitment-research-and-development-7ba5ef2352f"
-                                target="_blank"><img
-                                src="./assets/images/blog-post-1.png" alt="blog-photo"></a></div>
+                        <div class="blog-photo">
+                            <!-- <a href="https://medium.com/@d_blockchain/introducing-discover-blockchain-a-network-for-education-recruitment-research-and-development-7ba5ef2352f"
+                                target="_blank"> -->
+                                <img src="./assets/images/blog-post-1.png" alt="blog-photo"></a></div>
                         <div class="blog-texts">
                             <ul class="blog-meta">
                                 <li>
-                                    <a href="https://medium.com/@d_blockchain/introducing-discover-blockchain-a-network-for-education-recruitment-research-and-development-7ba5ef2352f"
-                                       target="_blank">14
-                                        May, 2018</a></li>
+                                    <!-- <a href="https://medium.com/@d_blockchain/introducing-discover-blockchain-a-network-for-education-recruitment-research-and-development-7ba5ef2352f"
+                                       target="_blank"> -->
+                                       14 May, 2018</a></li>
                                 <li>
-                                    <a href="https://medium.com/@d_blockchain/introducing-discover-blockchain-a-network-for-education-recruitment-research-and-development-7ba5ef2352f"
-                                       target="_blank">SineoBlockchain</a>
+                                    <!-- <a href="https://medium.com/@d_blockchain/introducing-discover-blockchain-a-network-for-education-recruitment-research-and-development-7ba5ef2352f"
+                                       target="_blank"> -->
+                                       SineoBlockchain</a>
                                 </li>
                             </ul>
-                            <h5 class="blog-title"><a
+                            <!-- <h5 class="blog-title"><a
                                     href="https://medium.com/@d_blockchain/introducing-discover-blockchain-a-network-for-education-recruitment-research-and-development-7ba5ef2352f"
-                                    target="_blank">Introducing
-                                Discover Blockchain: A network for Education, Recruitment, Research and Development</a>
+                                    target="_blank"> -->
+                                    Introducing
+                                Sinoe Blockchain: A network for Education, Recruitment, Research and Development</a>
                             </h5>
                             <p>There is no question that the initial hype around blockchain — a database that’s
                                 validated by a wider community rather than a central authority — has evolved...</p>
@@ -2298,24 +2364,27 @@
                 </div><!-- .col -->
                 <div class="col-lg-4 col-sm-8">
                     <div class="blog-item animated" data-animate="fadeInUp" data-delay="0">
-                        <div class="blog-photo"><a
+                        <div class="blog-photo">
+                            <!-- <a
                                 href="https://medium.com/@d_blockchain/the-importance-of-education-in-blockchain-technology-256450eb612a"
-                                target="_blank"><img
-                                src="./assets/images/blog-post-1.png" alt="blog-photo"></a></div>
+                                target="_blank"> -->
+                                <img                                src="./assets/images/blog-post-1.png" alt="blog-photo"></a></div>
                         <div class="blog-texts">
                             <ul class="blog-meta">
                                 <li>
-                                    <a href="https://medium.com/@d_blockchain/the-importance-of-education-in-blockchain-technology-256450eb612a"
-                                       target="_blank">20
-                                        June, 2018</a></li>
+                                    <!-- <a href="https://medium.com/@d_blockchain/the-importance-of-education-in-blockchain-technology-256450eb612a"
+                                       target="_blank"> -->
+                                       20 June, 2018</a></li>
                                 <li>
-                                    <a href="https://medium.com/@d_blockchain/the-importance-of-education-in-blockchain-technology-256450eb612a"
-                                       target="_blank">SineoBlockchain</a>
+                                    <!-- <a href="https://medium.com/@d_blockchain/the-importance-of-education-in-blockchain-technology-256450eb612a"
+                                       target="_blank"> -->
+                                       SineoBlockchain</a>
                                 </li>
                             </ul>
-                            <h5 class="blog-title"><a
-                                    href="https://medium.com/@d_blockchain/introducing-discover-blockchain-a-network-for-education-recruitment-research-and-development-7ba5ef2352f"
-                                    target="_blank">The Importance of Education in Blockchain Technology</a>
+                            <h5 class="blog-title">
+                                <!-- <a href="https://medium.com/@d_blockchain/introducing-discover-blockchain-a-network-for-education-recruitment-research-and-development-7ba5ef2352f"
+                                    target="_blank"> -->
+                                    The Importance of Education in Blockchain Technology</a>
                             </h5>
                             <p>Many innovations have recently come out of blockchain technology. Solutions to problems
                                 caused by outdated methods and beliefs have been presented for a variety of industries
@@ -2325,24 +2394,28 @@
                 </div><!-- .col -->
                 <div class="col-lg-4 col-sm-8">
                     <div class="blog-item animated" data-animate="fadeInUp" data-delay="0">
-                        <div class="blog-photo"><a
+                        <div class="blog-photo">
+                            <!-- <a
                                 href="https://medium.com/@d_blockchain/blockchain-in-the-freelancer-market-c9b82610225b"
-                                target="_blank"><img
-                                src="./assets/images/blog-post-1.png" alt="blog-photo"></a></div>
+                                target="_blank"> -->
+                                <img src="./assets/images/blog-post-1.png" alt="blog-photo"></a></div>
                         <div class="blog-texts">
                             <ul class="blog-meta">
                                 <li>
-                                    <a href="https://medium.com/@d_blockchain/blockchain-in-the-freelancer-market-c9b82610225b"
-                                       target="_blank">25
-                                        June, 2018</a></li>
+                                    <!-- <a href="https://medium.com/@d_blockchain/blockchain-in-the-freelancer-market-c9b82610225b"
+                                       target="_blank"> -->
+                                       25 June, 2018</a></li>
                                 <li>
-                                    <a href="https://medium.com/@d_blockchain/blockchain-in-the-freelancer-market-c9b82610225b"
-                                       target="_blank">SineoBlockchain</a>
+                                    <!-- <a href="https://medium.com/@d_blockchain/blockchain-in-the-freelancer-market-c9b82610225b"
+                                       target="_blank"> -->
+                                       SineoBlockchain</a>
                                 </li>
                             </ul>
-                            <h5 class="blog-title"><a
+                            <h5 class="blog-title">
+                                <!-- <a
                                     href="https://medium.com/@d_blockchain/blockchain-in-the-freelancer-market-c9b82610225b"
-                                    target="_blank">Blockchain in the Freelancer Market
+                                    target="_blank"> -->
+                                    Blockchain in the Freelancer Market
                             </a>
                             </h5>
                             <p>Freelancing is a fast growing and ever-increasing industry where people from any field
@@ -2371,7 +2444,7 @@
                 <div class="col-lg-6 col-xl-6 col-md-6 col-sm-12">
                     <div style="overflow-y: scroll;height: 500px;">
                         <a class="twitter-timeline" data-width="320"
-                           href="https://twitter.com/d_blockchain?ref_src=twsrc%5Etfw">Tweets by d_blockchain</a>
+                           href="https://twitter.com/google">Tweets by sineo_blockchain</a>
                         <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                     </div>
                 </div>
@@ -2380,7 +2453,7 @@
                          data-width="300" data-small-header="false" data-adapt-container-width="true"
                          data-hide-cover="false" data-show-facepile="true">
                         <blockquote cite="https://www.facebook.com/discoverblockchain/" class="fb-xfbml-parse-ignore"><a
-                                href="https://www.facebook.com/discoverblockchain/">Discover Blockchain</a></blockquote>
+                                href="https://www.facebook.com/discoverblockchain/">Sineo Blockchain</a></blockquote>
                     </div>
                 </div>
             </div>
@@ -2510,6 +2583,7 @@
                     <li><a href="#roadmap" class="menu-link">ROADMAP</a></li>
                     <li><a href="#team" class="menu-link">TEAM</a></li>-->
                     <li><a href="#faq" class="menu-link">FAQ</a></li>
+                    <li><a href="#faq" class="menu-link">DAPP</a></li>
                     <li><a href="#partners" class="menu-link">PARTNERS</a></li>
                     <li><a href="#media" class="menu-link">MEDIA</a></li>
                     <li><a href="#news" class="menu-link">NEWS</a></li>
