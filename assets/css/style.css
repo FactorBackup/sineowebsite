@@ -8163,7 +8163,7 @@ table.manage-table a.button {
 	line-height: 26px;
 }
 
-table.manage-table tr:nth-child(2n+1) { background-color: #fbfbfb; }
+table.manage-table tr:nth-child(2n+1) { background-color: #f70303; }
 
 table.manage-table th:first-child { width: 32%; padding-left: 55px; }
 table.manage-table th:first-child i { left: 35px; }
