@@ -508,6 +508,7 @@ var joinWhitelistModal = document.getElementById('join-whitelist-modal');
 // Get the button that opens the modal
 var signupBtn = document.getElementById('signupBtn');
 var signinBtn = document.getElementById('signinBtn');
+var writeBtn = document.getElementById('writeBtn');
 
 // Get the <span> element that closes the modal
 var span7 = document.getElementsByClassName("seventh-close")[0];
@@ -520,6 +521,9 @@ signupBtn.onclick = function () {
     signup.style.display = "block";
 }
 signinBtn.onclick = function () {
+    signin.style.display = "block";
+}
+writeBtn.onclick = function () {
     signin.style.display = "block";
 }
 
