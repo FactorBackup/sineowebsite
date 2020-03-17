@@ -5134,8 +5134,8 @@ select:focus {
     content: "";
     height: 3px;
     width: 65px;
+    background-image: -webkit- linear-gradient(to right, #2b56f5 0%, #46bdf4 100%);
     
-    background-image: linear-gradient(to right, #2b56f5 0%, #46bdf4 100%);
     transition: all .5s ease;
 }
 
