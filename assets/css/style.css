@@ -8156,7 +8156,7 @@ table.manage-table th {
 	margin-left: 33px !important;
 }
 
-table.manage-table th i { position: absolute; left: 17px; top: 21px; }
+/* table.manage-table th i { position: absolute; left: 17px; top: 21px; } */
 
 table.manage-table a.button {
 	padding: 7px 14px;
