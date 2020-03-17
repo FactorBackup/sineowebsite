@@ -5123,7 +5123,7 @@ select:focus {
     height: 100%;
     width: 100%;
     content: "";
-    background-image: linear-gradient(to top left, rgba(41, 0, 117, 0.65) 0%, rgba(9, 109, 223, 0.65) 100%);
+    
     transition: all .5s ease;
 }
 
