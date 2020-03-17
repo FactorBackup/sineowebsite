@@ -8206,7 +8206,7 @@ span.pending {
 
 table.manage-table td.centered { text-align: center; }
 
-table.manage-table td.action a { display: block; color: #333; line-height: 20px; padding: 3px 0; position: relative; margin-left: 21px; }
+table.manage-table td.action a { display: block; color: #7ab9ff; line-height: 20px; padding: 3px 0; position: relative; margin-left: 21px; }
 table.manage-table td.action a.delete i { left: -20px; }
 table.manage-table td.action a i { position: absolute; left: -21px; top: 5px; }
 
