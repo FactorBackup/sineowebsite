@@ -8217,3 +8217,22 @@ table.manage-table td.action a:hover { color: #505050; }
 .keywords,
 .alert-name { width: 18% }
 
+/* write 버튼 디자인*/
+.write-btn {
+    color: #182848 !important;
+}
+
+.write-btn:hover {
+    color: #fff !important;
+    background: transparent !important;
+}
+
+.write-btn:before {
+    background-image: none !important;
+    border: 2px solid white;
+}
+
+.write-btn:after {
+    background: #fff !important;
+    border-radius: 0 !important;
+}
