@@ -525,7 +525,7 @@ signinBtn.onclick = function () {
     signin.style.display = "block";
 }
 writeBtn.onclick = function () {
-    signin.style.display = "block";
+    writeBtn.style.display = "block";
 }
 
 span7.onclick = function () {
@@ -570,5 +570,10 @@ window.onclick = function (event) {
     if (event.target == joinWhitelistModal) {
         joinWhitelistModal.style.display = "none";
     }
+}
+
+/* write modal 닫힘버튼 */
+document.getElementById("modal_close_btn").onclick = function(){
+    document.getElementById("modal").style.display="none";
 }
 
