@@ -8152,7 +8152,7 @@ table.manage-table {
 }
 
 table.manage-table th {
-	/* background-color: #f6f6f6 !important; */
+	background-color: #f6f6f6 !important;
 	text-align: left;
 	padding: 18px 20px 18px 40px;
 	color: #333;
