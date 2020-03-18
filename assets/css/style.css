@@ -7807,8 +7807,7 @@ select:focus {
 }
 
 #write-modal .modal-content {
-    text-align: center;
-    width: 70%;
+    text-align: center;    
 }
 
 #join-whitelist-modal .modal-content {
@@ -8259,7 +8258,8 @@ textarea.WYSIWYG { min-height: 300px; }
 .search-field {
 	margin: 0;
 	padding: 0;
-	white-space: nowrap;
+    white-space: nowrap;
+    width: 200px;
 }
 
 .search-field input[type="text"] {
