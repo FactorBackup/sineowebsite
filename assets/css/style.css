@@ -8253,7 +8253,7 @@ table.manage-table td.action a:hover { color: #505050; }
 /*  write modal  */
 textarea.WYSIWYG { min-height: 300px; }
 
-.form.search-field {
+.writeForm {
 	margin: 0;
 	padding: 0;
     white-space: nowrap;
