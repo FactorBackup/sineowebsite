@@ -572,8 +572,3 @@ window.onclick = function (event) {
     }
 }
 
-/* write modal 닫힘버튼 */
-document.getElementById("modal_close_btn").onclick = function(){
-    document.getElementById("modal").style.display="none";
-}
-
