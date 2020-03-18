@@ -7792,6 +7792,11 @@ select:focus {
     text-align: center;
     padding-top: 20px;
 }
+.modal-content h5 {
+    color: #415EA0;
+    text-align: center;
+    padding-top: 20px;
+}
 
 #signup-modal .modal-content {
     text-align: center;
