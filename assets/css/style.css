@@ -7801,6 +7801,10 @@ select:focus {
     text-align: center;
 }
 
+#write-modal .modal-content {
+    text-align: center;
+}
+
 #join-whitelist-modal .modal-content {
     text-align: center;
 }
@@ -8241,5 +8245,4 @@ table.manage-table td.action a:hover { color: #505050; }
 /*  form  */
 .writeForm{
     color: #505050;
-    
 }
