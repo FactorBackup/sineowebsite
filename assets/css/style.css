@@ -8236,3 +8236,10 @@ table.manage-table td.action a:hover { color: #505050; }
     background: #fff !important;
     border-radius: 0 !important;
 }
+
+
+/*  form  */
+.writeForm{
+    color: #505050;
+    
+}

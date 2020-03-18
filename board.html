@@ -212,50 +212,51 @@
 
                         </table>
 
-                        <br>                            
-                                <a class="write-btn"  id="writeBtn" href="#">WRITE</a>
-                            </li>                        
+                        <br>
+                        <a class="write-btn" id="writeBtn" href="#">WRITE</a>
+                        </li>
+                    </div>
+
+
+
+                    <!--write modal-->
+                    <div id="write-modal" class="modal">
+                        <div class="modal-content">
+                            <h1>Write Board</h1>
+                            <p>this is modal</p>
+
+                            <!-- Name -->
+                            <div class="writeForm">
+                                <h5>Your Name</h5>
+                                <input class="search-field" type="text" placeholder="Your full name" value="" />
+                            </div>
+
+                            <!-- Title -->
+                            <div class="writeForm">
+                                <h5>Title</h5>
+                                <input class="search-field" type="text" placeholder="e.g. Web Developer" value="" />
+                            </div>
+
+                            <!-- Location -->
+                            <div class="writeForm">
+                                <h5>Location</h5>
+                                <input class="search-field" type="text" placeholder="e.g. London, UK" value="" />
+                            </div>
+
+                            <!-- Content -->
+                            <div class="writeForm">
+                                <h5>Content</h5>
+                                <textarea class="WYSIWYG" name="summary" cols="40" rows="3" id="summary"
+                                    spellcheck="true"></textarea>
+                            </div>
+
+
+                            <button type="button" id="modal_close_btn">CLOSE</button>
                         </div>
+                        <div class="modal_layer"></div>
+                    </div>
 
-
-
-<!--write modal-->
-<div id="write-modal" class="modal">
-    <div class="modal-content">
-        <h1>Write Board</h1>
-        <p>this is modal</p>
-
-        <!-- Name -->
-        <div class="form">
-            <h5>Your Name</h5>
-            <input class="search-field" type="text" placeholder="Your full name" value=""/>
-        </div>
-
-        <!-- Title -->
-        <div class="form">
-            <h5>Title</h5>
-            <input class="search-field" type="text" placeholder="e.g. Web Developer" value=""/>
-        </div>
-
-        <!-- Location -->
-        <div class="form">
-            <h5>Location</h5>
-            <input class="search-field" type="text" placeholder="e.g. London, UK" value=""/>
-        </div>
-
-        <!-- Content -->
-        <div class="form">
-            <h5>Content</h5>
-            <textarea class="WYSIWYG" name="summary" cols="40" rows="3" id="summary" spellcheck="true"></textarea>
-        </div>
-
-
-        <button type="button" id="modal_close_btn">CLOSE</button>
-    </div>    
-    <div class="modal_layer"></div>
-</div>
-
-<!--write modal-->
+                    <!--write modal-->
 
 
                     <!-- Preloader !remove please if you do not want -->
