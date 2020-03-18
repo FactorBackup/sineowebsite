@@ -525,7 +525,7 @@ signinBtn.onclick = function () {
     signin.style.display = "block";
 }
 writeBtn.onclick = function () {
-    writeBtn.style.display = "block";
+    write.style.display = "block";
 }
 
 span7.onclick = function () {
