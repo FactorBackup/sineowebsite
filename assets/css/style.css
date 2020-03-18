@@ -7808,6 +7808,7 @@ select:focus {
 
 #write-modal .modal-content {
     text-align: center;
+    width: 70%;
 }
 
 #join-whitelist-modal .modal-content {
