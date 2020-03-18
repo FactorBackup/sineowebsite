@@ -503,6 +503,7 @@ var modal5 = document.getElementById('fifth-modal');
 var modal6 = document.getElementById('sixth-modal');
 var signup = document.getElementById('signup-modal');
 var signin = document.getElementById('signin-modal');
+var signin = document.getElementById('write-modal');
 var joinWhitelistModal = document.getElementById('join-whitelist-modal');
 
 // Get the button that opens the modal
@@ -562,6 +563,9 @@ window.onclick = function (event) {
     }
     if (event.target == signin) {
         signin.style.display = "none";
+    }
+    if (event.target == write) {
+        write.style.display = "none";
     }
     if (event.target == joinWhitelistModal) {
         joinWhitelistModal.style.display = "none";
