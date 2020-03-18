@@ -8251,3 +8251,26 @@ table.manage-table td.action a:hover { color: #505050; }
 .writeForm{
     color: #505050;
 }
+
+/*  write modal  */
+textarea.WYSIWYG { min-height: 300px; }
+
+.search-field {
+	margin: 0;
+	padding: 0;
+	white-space: nowrap;
+}
+
+.search-field input[type="text"] {
+	margin: 0;
+	padding: 0;
+	height: 47px;
+	outline: 0;
+	border: 0 !important;
+	background: transparent !important;
+	color: #808080;
+	line-height: normal;
+	font-weight: 500;
+}
+
+.search-field input[type="text"] { color: #808080 !important; }
