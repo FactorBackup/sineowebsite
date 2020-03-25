@@ -8272,8 +8272,3 @@ textarea.WYSIWYG { min-height: 300px; }
 }
 
 .search-field input[type="text"] { color: #808080 !important; }
-
-.otherAccountBtn{
-    width: 100px;
-    height: 50px;
-}
